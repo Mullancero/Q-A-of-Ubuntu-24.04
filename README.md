@@ -71,7 +71,7 @@ This step is for getting the libraries of STM32.
 
 1. Get Anaconda for Linux on the website: `https://www.anaconda.com/download/success`
 
-2. Use sudo chmod 777 and sudo ./
+2. Use sudo chmod 777 and ./ (No sudo for ./).
 
 ## Install Texlive on Ubuntu24.04
 
