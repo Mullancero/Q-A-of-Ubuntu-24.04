@@ -40,7 +40,7 @@ Using SSH keys for GitHub connections is common and secure. Generate a new SSH k
 
 3. Select New SSH key, give it a title, paste the copied SSH key, and save it.
 
-## STM32CubeIDE in Ubuntu24.04
+## STM32CubeIDE on Ubuntu24.04
 
 ### Download STM32CubeIDE
 
@@ -67,33 +67,15 @@ Using SSH keys for GitHub connections is common and secure. Generate a new SSH k
 
 This step is for getting the libraries of STM32.
 
-## Install Python3.10 and PIP on Ubuntu24.04
+## Install Anaconda on Ubuntu24.04
 
-1. Add the `deadsnakes`
-`sudo add-apt-repository ppa:deadsnakes/ppa`
+1. Get Anaconda for Linux on the website: `https://www.anaconda.com/download/success`
 
-2. Update and then install python
-`sudo apt update`
-`sudo apt install python 3.10`
+2. Use sudo chmod 777 and sudo ./
 
-## Install PIP on Ubuntu24.04
+## Install Texlive on Ubuntu24.04
 
-`sudo apt install -y python3-pip`
+1. `sudo apt install texlive-full`
 
-## No VIM for VS Code
 
-## Use a Virtual Environment
-
-1. Create a virtual Environment
-`python3 -m venv myenv`
-
-2. Activate the Virtual Environment
-`source myenv/bin/activate`
-
-3. Install the Required Package in the Virtual Environment
-`sudo apt install tex-live`
-`pip install nbconvert[webpdf]`
-
-4. Override with --break-system-packages (Risky)
-`pip install nbconvert[webpdf] --break-system-packages`
 
