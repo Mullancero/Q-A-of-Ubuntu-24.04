@@ -71,11 +71,25 @@ This step is for getting the libraries of STM32.
 
 1. Get Anaconda for Linux on the website: `https://www.anaconda.com/download/success`
 
-2. Use sudo chmod 777 and ./ (No sudo for ./).
+2. Use `bash`.
 
 ## Install Texlive on Ubuntu24.04
 
 1. `sudo apt install texlive-full`
 
+## Install Pandoc on Ubuntu24.04
 
+1. Website: `https://github.com/jgm/pandoc/releases`
+
+2. Install: `sudo dpkg -i pandoc-3.1.8-1-amd64.deb`
+
+3. Confirm: `pandoc --version`
+
+## Install nbconvert[webpdf]
+
+1. `pip install nbconvert[webpdf]`
+
+## Install Playwright Browsers
+
+1. `playwright install`
 
