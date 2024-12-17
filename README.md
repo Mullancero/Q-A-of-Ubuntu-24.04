@@ -93,3 +93,19 @@ This step is for getting the libraries of STM32.
 
 1. `playwright install`
 
+## Install LaTex Editor
+
+1. `sudo apt install texstudio`
+
+## Install Metropolis
+
+1. Download the theme: Clone the Metropolis repository using Git: `git clone https://github.com/matze/mtheme.git`
+
+2. Install the theme: Navigate to the directory and install: `cd mtheme
+make`
+
+3. Move the theme to your local TeX directory: `mkdir -p ~/texmf/tex/latex/mtheme
+cp -R *.sty ~/texmf/tex/latex/mtheme/
+texhash`
+
+
